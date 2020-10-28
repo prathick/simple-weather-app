@@ -1,0 +1,25 @@
+.weatherHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currentCity {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-family: 'DIN-Medium', sans-serif;
+}
+
+.description {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9rem;
+}
+
+.description::first-letter {
+  text-transform: uppercase;
+}

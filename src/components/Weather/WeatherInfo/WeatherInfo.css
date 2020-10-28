@@ -1,0 +1,24 @@
+.weatherContentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .weatherContent {
+    width: 50%;
+    padding-top: 0.2rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contentTitle {
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-size: 0.8rem;
+  }
+  
+  .contentValue {
+    font-size: 1.2rem;
+  }
