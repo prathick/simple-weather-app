@@ -1,0 +1,22 @@
+.currentWeatherWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.2rem;
+}
+
+.currentWeather {
+  font-size: 4.8rem;
+}
+
+.unitBtn {
+  background: transparent;
+  border: none;
+  color: #e2e8ee;
+  outline: 0;
+  display: flex;
+  cursor: pointer;
+}
+
+.active {
+  color: #333333;
+}
