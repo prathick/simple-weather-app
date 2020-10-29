@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ErrorImg from '../../assets/error.svg';
 import './FatalError.css';
 
@@ -18,6 +19,11 @@ const FatalError = ({ heading, description }) => {
       </div>
     </div>
   );
+};
+
+FatalError.propTypes = {
+  heading: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
 };
 
 export default FatalError;
